@@ -6,7 +6,7 @@ But your AWS access key ID and secret access key are different and will not work
 
 This python script can generate SMTP password from IAM user's secret access key. The SMTP user name is the same as the AWS access key ID, so you only need to generate the SMTP password.
 
-**Usage:**  python main.py <your-access-secret> <aws-region-name>
+**Usage:**  python main.py your-access-secret aws-region-name
 
 Make sure IAM user have below permissions:
 
